@@ -130,3 +130,9 @@ a:hover {
   color: #C69749;
   font-size: 15px;
 }
+
+.fa-eye{
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
