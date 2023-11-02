@@ -12,3 +12,12 @@ btnSenha.addEventListener("click", () => {
     inputSenha.setAttribute("type", "password");
   }
 });
+
+btnConfirmarSenha.addEventListener("click", () => {
+  let inputConfirmarSenha = document.querySelector("#confirmarSenha");
+  if (inputConfirmarSenha.getAttribute("type") == "password") {
+    inputConfirmarSenha.setAttribute("type", "text");
+  } else {
+    inputConfirmarSenha.setAttribute("type", "password");
+  }
+});
