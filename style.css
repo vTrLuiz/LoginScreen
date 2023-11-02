@@ -135,4 +135,5 @@ a:hover {
   position: absolute;
   right: 15px;
   top: 20px;
+  cursor: pointer;
 }

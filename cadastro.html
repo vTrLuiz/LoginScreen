@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Cadastro</title>
+    <script
+      src="https://kit.fontawesome.com/ba6d0cc3e8.js"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Cadastro</title>
-  <script src="https://kit.fontawesome.com/ba6d0cc3e8.js" crossorigin="anonymous"></script>
-</head>
+    <script src="./script.js"></script>
+  </head>
 
-<body>
-  <div class="container">
-    <div class="card">
-      <h1>Cadastro</h1>
-      <div class="label-float">
-        <input type="text" name="Nome" id="user" placeholder="" required>
-        <label for="user">Nome</label>
-      </div>
-      <!-- <div class="label-float">
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Cadastro</h1>
+        <div class="label-float">
+          <input type="text" name="Nome" id="user" placeholder="" required />
+          <label for="user">Nome</label>
+        </div>
+        <!-- <div class="label-float">
         <input type="text" name="email" id="user" placeholder="" required>
         <label for="user">E-mail</label>
       </div> -->
-      <div class="label-float">
-        <input type="password" name="usuario" id="user" placeholder="" required>
-        <label for="user">Senha</label>
-        <i class="fa-solid fa-eye" style="color: #c69749;"></i>
-      </div>
-      <div class="label-float">
-        <input type="password" name="usuario" id="user" placeholder="" required>
-        <label for="user">Confirmar Senha</label>
-        <i class="fa-solid fa-eye" style="color: #c69749;"></i>
-      </div>
-      <div class="botao">
-        <button>Cadrastrar</button>
-      </div>
-      <div class="linha">
-        <hr>
-      </div>
+        <div class="label-float">
+          <input
+            type="password"
+            name="usuario"
+            id="user"
+            placeholder=""
+            required
+          />
+          <label id="senha" for="user">Senha</label>
+          <i id="verSenha" class="fa-solid fa-eye" style="color: #c69749"></i>
+        </div>
+        <div class="label-float">
+          <input
+            type="password"
+            name="usuario"
+            id="user"
+            placeholder=""
+            required
+          />
+          <label id="confirmarSenha" for="user">Confirmar Senha</label>
+          <i
+            id="verConfirmarSenha"
+            class="fa-solid fa-eye"
+            style="color: #c69749"
+          ></i>
+        </div>
+        <div class="botao">
+          <button>Cadrastrar</button>
+        </div>
+        <div class="linha">
+          <hr />
+        </div>
 
-      <p>
-        <a href="./index.html">Já tem uma conta?</a>
-      </p>
-
+        <p>
+          <a href="./index.html">Já tem uma conta?</a>
+        </p>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
